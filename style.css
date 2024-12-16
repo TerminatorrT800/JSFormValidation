@@ -1,0 +1,39 @@
+.error {
+  color: red;
+  font-size: 12px;
+  display: none;
+}
+
+.invalid {
+  border-color: red;
+}
+form{
+
+    background-color: antiquewhite;
+    border-radius: 50px;
+    width: 800px;
+    height: 600px;
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+    gap: 10px;
+}
+
+input{
+    margin: auto;
+    width: 270px;
+    height: 20px;
+    border-radius: 10px;
+}
+label, span{
+    margin: auto;
+}
+
+button{
+    width: 80px;
+    margin: auto;
+}
+
+input:invalid{
+    border-color: blue;
+}
