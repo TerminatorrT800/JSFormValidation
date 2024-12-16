@@ -24,6 +24,7 @@ input{
     width: 270px;
     height: 20px;
     border-radius: 10px;
+    border:solid 5px;
 }
 label, span{
     margin: auto;
@@ -35,5 +36,9 @@ button{
 }
 
 input:invalid{
-    border-color: blue;
+    border-color: red;
+}
+
+input:valid{
+    border-color: green;
 }
